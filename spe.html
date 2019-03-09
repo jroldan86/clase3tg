@@ -1,0 +1,89 @@
+<h!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body> 
+    
+
+       <H1 align="center">Reto CSS</h1>
+       
+    <ul> 
+       <li>Item #1</li>
+       <li>Item #2</li>
+       <li>Item #3</li>
+       <li>Item #4</li>
+       <li>Item #5</li>
+       <li>Item #6</li>
+       <li>Item #7</li>
+       <li>Item #8</li>
+       <li>Item #9</li>
+       <li>Item #10</li>
+      
+    </ul> 
+<style>
+     
+     h1 {
+         color:burlywood;
+         margin-top: 20px;
+         font-weight:800;
+         font-family: Arial;
+
+     }
+     
+  li{
+
+      color:white;
+
+  }
+
+  li:nth-child(2n) {
+  color: red;
+  border-bottom: 5px solid transparent;
+  list-style-type: none;
+
+  }
+
+  li:nth-child(2n+1) {
+  color:white;
+  border-bottom: 5px solid transparent;
+  list-style-type: none;
+}
+
+
+
+li:nth-child(2n):hover{
+background-color: cyan;
+border-bottom-color: chocolate;
+
+
+}
+
+li:nth-child(2n+1):hover{
+background-color:indianred;
+border-bottom-color:darkviolet;
+}
+
+@media (max-width: 600px) {
+ h1 {
+ color:turquoise;
+ }
+ }
+
+
+
+
+    
+     body {
+         background-color: #000000;
+     }
+
+
+</style>
+
+
+</body>
+</html>      
